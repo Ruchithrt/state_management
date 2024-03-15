@@ -2,11 +2,8 @@ import changeTheNumber from "./updown";
 
 import { combineReducers } from "redux";
 
-const reducers = combineReducers(
-    {
-    //   myNumber:changeTheNumber
-        changeTheNumber
-    }
-);
+const reducers = combineReducers({
+  changeTheNumber,
+});
 
 export default reducers;
